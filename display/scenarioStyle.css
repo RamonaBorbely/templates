@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.persona {
+    margin-top: 10px;
+    text-align: center;
+    letter-spacing: 0.8px;
+    font-size: 40px;
+}
+
+.sccenario-container {
+    align-items: center;
+}
+
+.goal {
+    background-color:lightpink;
+}
+
+.goal p {
+    padding: 1rem;
+}
+
+.update-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.cont{
+    margin-top: 30px;
+    display: flex;
+    gap: 10rem;
+    margin: 30 auto;
+    padding: 1rem 2rem;
+}
+
+.update-details, .find-alumni {
+    width: 200px;
+    position: relative;
+}
+
+.arrow-down {
+    width: 50px;
+    height: 80px;
+    position: absolute;
+
+}
+
+.url, .browse {
+    background-color:lightgreen;
+    width: 200px;
+
+}
+
+.action-container {
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.actions {
+    display: flex;
+    gap: 7em;
+}
+
+.actions div {
+    padding: 1rem;
+}
+
+.q {
+    position: relative;
+}
+
+.question-1, .question-2, .question-3 {
+    position: absolute;
+    height: 20px;
+}
+
+.question-1 {
+    right: -30px;
+    top: 40px;
+}
+
+.question-2 {
+    right: -40px;
+    top: 50px;
+}
+
+.question-3 {
+    right: -20px;
+    top: 50px;
+}
+
+.h {
+    position: relative;
+}
+
+.head-question {
+    position: absolute;
+    height: 50px;
+    right: -50px;
+    top: 10px;
+}
+
+.s {
+    position: relative;
+}
+
+.success {
+    position: absolute;
+    height: 40px;
+    right: -40px;
+    top: 20px;
+}
+
+.r {
+    position: relative;
+}
+
+.a-1 {
+    top: 99px;
+    left: 50px;
+}
+
+.a-2 {
+    top: 60px;
+    left: 80px;
+    height: 100px;
+
+}
+.a-3 {
+    top: 40px;
+    left: 80px;
+    height: 120px;
+}
+
+.w {
+    position: relative;
+}
+
+.where {
+    position: absolute;
+    font-family: "Sevillana", cursive;
+    left: 210px;
+    top: 50px;
+    transform: rotate(30deg);
+    width: 50%;
+}
+
+body div {
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.alex-arrow {
+    position: absolute;
+    top: 76px;
+    height: 90px;
+}
+
+.alex-arrow-3 {
+    position: absolute;
+    top: 40px;
+    height: 110px;
+}
+
+.alex-arrow-2 {
+    position: absolute;
+    top: 50px;
+    height: 110px;
+}

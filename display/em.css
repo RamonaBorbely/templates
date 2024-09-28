@@ -1,0 +1,166 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+}
+
+.em-container {
+    height: 90%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
+
+.face-container {
+    z-index: 100;
+  
+}
+
+.face-container p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+}
+
+.face {
+    padding: .3rem;
+    border-radius: 50%;
+}
+
+.up , .down {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.box {
+    width: 500px;
+    height: 200px;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 1rem;
+}
+
+.b1, .b2, .b3, .b4 {
+    letter-spacing: 0.8px;
+    font-weight: 500;
+}
+
+.em-container::before, .em-container::after {
+    content: '';
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+.em-container::before {
+    width: 100%;
+    height: 3px;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.em-container::after {
+    width: 3px;
+    height: 100%;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+}
+
+.says {
+    position: absolute;
+    left: 400px;
+    top: 250px;
+}
+.thinks {
+    position: absolute;
+    right: 400px;
+    top: 250px;
+}
+.does {
+    position: absolute;
+    left: 400px;
+    bottom: 250px;
+}
+.feels {
+    position: absolute;
+    right: 409px;
+    bottom: 250px;
+}
+
+.says,
+.thinks,
+.does,
+.feels {
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.gp-container {
+    display: flex;
+}
+
+.pain, .gain {
+    position: absolute;
+    border-radius: 5px;
+}
+
+.gp-container ul{
+    list-style: square;
+}
+
+.gain {
+    top: 182px;
+    right: 10px;
+    background-color:aqua;
+    width: 180px;
+    height: 190px;
+    font-size: 15px;
+    transform: rotate(10deg);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.pain {
+    top: 240px;
+    left: 60px;
+    background-color:lightpink;
+    width: 180px;
+    height: 128px;
+    font-size: 15px;
+    transform: rotate(-10deg);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.undlin {
+    text-decoration: underline;
+}
+
+.alex {
+    width: 205px;
+    height: 152px;
+    top: 220px;
+}
